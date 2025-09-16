@@ -24,7 +24,7 @@ def extract_audio(video_path, audio_path):
 
 def transcribe(audio_path):
     # Распознавание текста через HuggingFace Whisper API
-    API_URL = "https://api-inference.huggingface.co/models/openai/whisper-base"
+    API_URL = "https://api-inference.huggingface.co/models/openai/whisper-large-v2"
     headers = {"Authorization": f"Bearer {HF_TOKEN}"}
     with open(audio_path, "rb") as f:
         data = f.read()

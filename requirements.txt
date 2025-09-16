@@ -1,0 +1,6 @@
+streamlit
+requests
+python-dotenv
+ffmpeg-python
+pydantic
+tqdm
